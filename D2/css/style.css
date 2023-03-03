@@ -1,0 +1,74 @@
+header {
+    text-align: center;
+    font-size: 15px;
+}
+
+#logo {
+    height: 50px;
+    margin-top: 10px;
+}
+
+#sottotitolo {
+    width: 100%;
+    background-color: #fdfbf2;
+    border-top: solid 1px #fadfa2;
+    height: 30px;
+    padding-top: 10px;
+    color: #177;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 100;
+}
+
+h1{
+    text-align: center;
+}
+
+div {
+    width: 800px;
+   text-align:justify;
+   margin: auto;
+}
+
+p {
+    font-size:small;
+}
+
+#credits {
+    color: grey;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+}
+
+#focaccia {
+    margin-bottom: 15px;
+    width: 800px;
+    height: auto;
+    border-radius: 1%;
+    box-shadow: 10px 10px 15px rgb(204, 202, 202)
+    
+}
+
+#link{
+    color: red;
+    border-left: solid 1px #fadfa2;
+    padding-left: 10px;
+    margin: 50px 0 50px 0;
+    font-size: 17px;
+}
+
+.titoli {
+    border-bottom: solid 1px lightblue;
+    padding-bottom: 5px;
+    font-weight: 100;
+}
+
+ul {line-height: 35px;}
+
+footer {
+    font-size: 15px;
+}
