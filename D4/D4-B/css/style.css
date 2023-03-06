@@ -1,0 +1,545 @@
+ body{
+    margin: 0px;
+    font-family: 'Lobster', cursive;
+}
+
+/* triangoli sinistra */
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 80px solid lightblue;
+    border-bottom: 40px solid transparent;
+}
+
+
+
+#triangoliLaterali{
+    display: block;
+    position: absolute;
+    top:0;
+    left:0 ;
+}
+
+
+/* contenuto sinistra */
+
+.containerLeft{
+    width: 45%;
+    height: 1040px;
+    margin: 0px;
+    background-color:rgb(255, 255, 255);
+    text-align: left;
+    display: inline-block;
+}
+
+h1{
+    padding-top: 100px;
+    margin-top: 0px;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    text-shadow: -1px -1px 3px rgba(0,0,0,0.2),
+                1px 1px 2px rgba(255,255,255,0.7);
+
+}
+
+
+#picture{
+    width: 350px;
+    height: 350px;
+    background-image: url(../img/me.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    background-position: center center;
+    margin: 0 auto;
+}
+
+/* triangoli centrali */
+
+.triangleC {
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-right: 80px solid lightblue;
+    border-bottom: 40px solid transparent;
+}
+
+
+
+
+#triangoliCentrali{
+    display: block;
+    position: absolute;
+    top:0;
+    right: 55% ;
+}
+
+/* contenuto destra */
+
+.containerDestro{
+    width: 55%;
+    height: 1040px;
+    background-color: lightblue;
+    float: right;
+}
+
+
+
+/* contatti */
+
+.contatti{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+}
+
+.contatti li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.contatti li :first-child{
+    display: block;
+}
+
+
+/* icone contatti */
+
+
+#github{
+    width: 45px;
+    height: 45px;
+    background-image: url(/img/github.png);
+    background-size:cover;
+    background-position: center center;
+    border-radius: 50%;
+    box-shadow: 3px 4px 3px rgba(0,0,0,0.3);
+}
+
+#linkedin{
+    width: 45px;
+    height: 45px;
+    background-image: url(/img/linkedin.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+    box-shadow: 3px 4px 3px rgba(0,0,0,0.3);
+}
+
+#vimeo{
+    width: 45px;
+    height: 45px;
+    background-image: url(/img/vimeo.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+    box-shadow: 3px 4px 3px rgba(0,0,0,0.3);
+}
+
+#mail{
+    width: 45px;
+    height: 45px;
+    background-image: url(/img/mail.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+    box-shadow: 3px 4px 3px rgba(0,0,0,0.3);
+}
+
+#web{
+    width: 45px;
+    height: 45px;
+    background-image: url(/img/web.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+    box-shadow: 3px 4px 3px rgba(0,0,0,0.3);
+}
+
+#github:hover{
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+   }
+
+#linkedin:hover{
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+   }
+
+#vimeo:hover{
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+   }
+
+#mail:hover{
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+   }
+
+#web:hover{
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+   }
+
+
+
+/* sezione testo informativo destro */
+
+.bioContainer{
+    width: 500px;
+    height: 240px;
+    background-color: lightblue;
+    margin: 0 auto;
+}
+.bioContainer a{
+    padding-left:190px;
+    text-decoration: none;
+    font-size: 33px;
+    font-weight: bolder;
+}
+
+.secondTriangle {
+    width: 0;
+    height: 0;
+    border-top: 60px solid lightblue;
+    border-right: 250px solid transparent;
+    border-left: 250px solid transparent;
+    border-bottom: 300px solid transparent;
+    margin: 0 auto;
+    display: relative;
+}
+
+
+
+.paragrafo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text{
+    text-align: justify;
+    padding: 20px 50px;
+    font-size: larger;
+    margin: 0 auto;
+}
+
+.competenze{
+    float: left;
+    width: 25%;
+    height: 2150px;
+    padding: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:before{
+    color: black;
+}
+
+.competenze a:hover{
+    color: white;
+}
+
+
+
+a:visited{
+    color: black;
+}
+
+
+#textCompetenzeUno{
+    text-align: justify;
+    padding: 50px 50px;
+    font-size: 50px;
+    background-color: bisque;
+    width: 100px;
+    height: 1295px;
+    margin: 0 auto;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+
+#textCompetenzeDue{
+    text-align: justify;
+    padding: 50px 50px;
+    font-size: 50px;
+    background-color: bisque;
+    width: 100px;
+    height: 1625px;
+    margin: 0 auto;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+
+#textCompetenzeTre{
+    text-align: justify;
+    padding: 50px 50px;
+    font-size: 50px;
+    background-color: bisque;
+    width: 100px;
+    height: 1960px;
+    margin: 0 auto;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+
+#textCompetenzeQuattro{
+    text-align: justify;
+    padding: 50px 50px;
+    font-size: 50px;
+    background-color: bisque;
+    width: 100px;
+    height: 2285px;
+    margin: 0 auto;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+
+h2{
+    margin: 0px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.competenze h2{
+    text-align: left;
+}
+
+ul li{
+    list-style-type:none;
+    display: inline-block;
+}
+
+
+/* immagini studio */
+
+#bambina{
+    background-image: url(/img/bambina.png);
+    width: 50px;
+    height: 100px;
+    background-size: cover;
+    position: center center;
+    margin-right: 20px;
+}
+
+#liceo{
+    background-image: url(/img/liceo.png);
+    width: 350px;
+    height: 75px;
+    background-size: cover;
+    position: center center;
+    margin-right: 15px;
+}
+
+#aba{
+    background-image: url(/img/logoabaurb.png);
+    width: 180px;
+    height: 75px;
+    background-size: cover;
+    margin-right: 15px;
+}
+
+
+
+#epicode{
+    background-image: url(/img/epicode.png);
+    width: 300px;
+    height: 70px;
+    background-size: cover;
+    position: center center;
+    margin-right: 15px;
+}
+
+#computer{
+    background-image: url(/img/boy-on-computer.png);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    position: center center;
+}
+
+/* immagini lavoro */
+
+
+#brama{
+    background-image: url(/img/brama.png);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    position: center center;
+    margin-right: 15px;
+}
+
+#justeat{
+    background-image: url(/img/justeat.png);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    position: center center;
+    margin-right: 15px;
+}
+
+#unibo{
+    background-image: url(/img/unibo.png);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+#sferisterio{
+    background-image: url(/img/sferisterio.png);
+    width: 200px;
+    height: 100px;
+    background-size: cover;
+    position: center center;
+}
+
+
+/* sezione informazioni */
+
+
+#infouno{
+    width: 1055px;
+    height: 230px;
+    margin-top: 100px;
+    background-color:lightblue ;
+}
+
+#infotextuno{
+    width: 700px;
+    height: 280px;
+    margin-left: 50px;
+    padding: 15px 25px 0 10px;
+    text-align:justify;
+}
+
+#infodue{
+    width: 1300px;
+    height: 230px;
+    margin-top: 100px;
+    background-color:lightblue ;
+}
+
+#infotextdueA{
+    width: 450px;
+    height: 215px;
+    margin-left:50px;
+    padding: 15px 25px 0 10px;
+    text-align:justify;
+    float: left;
+}
+
+#infotextdueB{
+    width: 450px;
+    height: 180px;
+    margin-left:30px;
+    padding: 50px 25px 0 10px;
+    text-align:justify;
+    float: left;
+}
+
+#infotre{
+    width: 1550px;
+    height: 230px;
+    margin-top: 100px;
+    background-color:lightblue ;
+}
+
+#infotexttre{
+    width: 1200px;
+    height: 280px;
+    margin-left: 40px;
+    padding: 15px 25px 0 10px;
+    text-align:justify;
+}
+
+#infoquattro{
+    width: 100%;
+    height: 230px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    background-color:lightblue ;
+}
+
+#infotextquattro{
+    width: 700px;
+    height: 280px;
+    margin-left: 900px;
+    padding: 15px 25px 0 10px;
+    text-align:justify;
+}
+
+footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+#freccia{
+    width: 70px;
+    height: 70px;
+    float: right;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    background-color: lightblue;
+    border-radius: 50%;
+    margin-right: 85px;
+
+}
+
+#freccia a{
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* footer */
+
+
+.cerchioFreccia{
+    width: 10px;
+    height: 10px;
+    background-color: lightblue;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+}
+
+#footer{
+    width: 100%;
+    height: 40px;
+    padding: 0 auto;
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    background-color: lightblue;
+}
+
+
+.triangleB {
+    width: 0;
+    height: 0;
+    border-top: 0px solid lightblue;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid lightblue;
+    border-left: 40px solid transparent;
+    display: inline-block;
+    padding: 0px;
+}
+
+
+
+#triangoliBasso{
+    height: 80px;
+}
