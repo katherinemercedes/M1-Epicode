@@ -1,0 +1,85 @@
+.container {
+    margin-left: 4rem;
+    margin-top: 4rem;
+  }
+
+/* esercizio 1 */
+
+.container div {
+    width: 70px;
+    height: 60px;
+    border: 1px solid black;
+    display: inline-block;
+  }
+
+/* esercizio 2 */
+
+.container div:nth-child(even){
+    border:1px solid red;
+
+}
+
+/* esercizio 3 */
+
+.container div:nth-child(odd) span:nth-child(even){
+    color: green;
+}
+
+/* esercizio 4 */
+
+.container div:nth-child(2) span:last-of-type{
+  color: blue;
+}
+
+/* esercizio 5 */
+
+.container div:nth-child(6) :not(:last-of-type){
+  color: yellow;
+}
+
+/* esercizio 6 */
+
+.container div{
+  position: relative;
+}
+
+/* esercizio 7 */
+
+.container div span:first-of-type{
+  position: absolute;
+  top:60px;
+  right: 30px;
+}
+
+/* esercizio 8 */
+
+.container div span:nth-child(2){
+  position: absolute;
+  bottom: 60px;
+  right: 30px;
+}
+
+/* esercizio 9 */
+
+.container div:last-of-type span:last-child{
+  position:absolute;
+  top: 20px;
+  left: 80px;
+}
+
+/* eserizio 10 */
+
+.container div:first-child span:last-of-type{
+  position:absolute;
+  right: 80px;
+  top: 20px;
+}
+
+
+.container {
+font-size:0;
+}
+
+.container div {
+  font-size:1rem;
+  }
