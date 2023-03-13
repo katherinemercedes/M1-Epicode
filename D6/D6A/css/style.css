@@ -1,0 +1,99 @@
+body{
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.card {
+  width: 350px;
+  height: 480px;
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 10px 6px 20px rgba(0,0,0,0.3);
+}
+.image {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+}
+.save{
+  background-color: red;
+  color: white;
+  position: absolute;
+  font-size: 1.2em;
+  width: 100px;
+  height: 60px;
+  border-radius: 40px;
+  text-align: center;
+  line-height: 60px;
+  right: 15px;
+  top: -20px;
+}
+
+.info{
+  background-color: whitesmoke;
+  color: black;
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 30px;
+  left: 20px;
+  bottom: -15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 10px;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  bottom: 0px;
+  right: 80px;
+  text-align: center;
+}
+
+.picture{
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
+}
+
+.icone>div:last-child{
+  right: 20px;
+}
+
+.icone{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.4);
+  opacity:0;
+}
+
+.icone:hover{
+  opacity: .8;
+}
+
+.icone:hover .icon , .icone:hover .info{
+transform: translateY(-20px);
+transition: .3s;
+}
+
+.icone:hover .save{
+  transform: translateY(20px);
+  transition: .2s;
+  transition-timing-function: linear;
+  }
