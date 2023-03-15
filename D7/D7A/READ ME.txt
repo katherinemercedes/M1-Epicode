@@ -1,3 +1,4 @@
-Prima parte dell'esercizio D7. Costruzione layout tramite flexbox.
+Prima parte dell'esercizio D7 del primo modulo del corso Web Developer di EPICODE. 
+Costruzione layout tramite flexbox.
 
 Katherine Mercedes Ticlla Huatay
