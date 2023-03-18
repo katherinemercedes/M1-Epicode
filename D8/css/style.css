@@ -1,0 +1,549 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+/* stile sezione HEADER */
+
+header{
+    width: 100%;
+    min-height: 90px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.logo{
+    display: flex;
+    align-items: baseline;
+    cursor: pointer;
+}
+
+h1{
+    margin: 0;
+    font-size: 2.5em;
+    font-family: serif;
+}
+
+
+.cerchio{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 1px;
+}
+
+.ellisse{
+    width: 15px;
+    height: 29px;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 1px;
+}
+
+.ellisse:nth-child(3){
+    width: 5px;
+    height: 28px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.Hleft{
+    padding-left: 150px;
+}
+
+.Hright{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 150px;
+}
+
+.button{
+    border: 1px solid rgb(143, 143, 143);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.button:hover{
+    border: 1px solid black;
+}
+
+.button a{
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: light;
+}
+
+.user{
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+
+.icon{
+    width: 25px;
+    height: 25px;
+    color: grey;
+    cursor: pointer;
+}
+
+.icon:hover{
+color: black;
+}
+
+.Hright .icon,.button,.user{
+    margin-left:20px;
+}
+
+/* fine stile sezione HEADER */
+
+main{
+    width: 100%;
+    display: flex;
+}
+
+.Mleft{
+    width: 65%;
+    min-height: 100px;
+    border-right: 1px solid lightgrey;
+    padding-right: 60px;
+    margin-left: 150px;
+}
+
+.Mright{
+    width: 30%;
+    height: 600px;
+    right: 140px;
+    margin-right: 150px;
+    position: sticky;
+    top: -50px;
+}
+
+
+/* stile struttura: SINISTRA */
+
+.MleftNav{
+   width: 100%;
+   height: 50px;
+   background-color: white;
+   margin-top: 60px;
+   line-height: 50px;
+   border-bottom: 1px solid lightgrey;
+   position: sticky;
+   top: 0;
+   z-index: 1;
+}
+
+.MleftNav a{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.1em;
+    padding: 15px;
+    
+}
+
+.MleftNav a:hover{
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+
+/* stile post sezione SINISTRA */
+
+.post-container{
+    margin-top: 40px;
+    min-height: 1300px;
+}
+
+.main-post{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+div.post-image{
+    width: 28%;
+    height: 150px;
+    background-color: brown;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+
+div.post{
+    width: 70%;
+    min-height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section-post{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.post h2{
+    font-size: 26px;cursor: pointer;
+
+}
+
+p.post-preview{
+    color: grey;
+    font-size: 1.2em;
+    font-weight: light;
+    display: inline-block;
+    min-height: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+div.post-info{
+    display: flex;
+    color: grey;
+    font-size: 1em;
+    align-items: center;
+}
+
+p.grey-bg{
+    background-color: rgb(224, 222, 222);
+    padding:8px 10px;
+    border-radius:20px;
+    cursor: pointer;
+}
+
+p.grey-bg:hover{
+    background-color: lightgray;
+}
+
+
+.post-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-info>p{
+    cursor:pointer;
+}
+
+
+.right-content{
+    width: 80%;
+    height: 700px;
+    margin: 60px auto 0 80px;
+
+}
+
+
+
+/* stile struttura: DESTRA 1*/
+
+.sezDestraUno{
+    width: 100%;
+    height: 250px;
+    font-size: 1.2em;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 1px solid lightgray;
+}
+
+.iconM{
+    width: 30px;
+    height: 30px;
+    color: grey;
+}
+
+.iconMdue{
+    width: 30px;
+    height: 30px;
+    color:rgb(42, 169, 223);
+    margin-right: 10px;
+}
+
+.twitter{
+    min-width: 230px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border: 1px solid rgb(149, 149, 149);
+    border-radius: 30px;
+    font-size: .9em;
+    cursor: pointer;
+}
+
+.twitter:hover{
+border: 1px solid black;
+}
+
+
+.sezDestraUno>p{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px;
+}
+
+.sezDestraUno a{
+    color: grey;
+    font-size: 0.9em;
+}
+
+/* stile struttura: DESTRA 2 */
+
+.sezDestraDue{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.sezDestraDue p{
+    margin: 0 0 20px 0;
+}
+
+.topics>ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    justify-content: flex-start;
+}
+
+.topics>ul li{
+    background-color: rgb(237, 236, 236);
+    padding: 13px;
+    border-radius: 25px;
+    font-weight: 100;
+    font-size: .9em;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.topics>ul li:hover{
+    background-color: rgb(196, 196, 196);
+}
+
+
+/* stile struttura: DESTRA 3 */
+
+.sezDestraTre{
+    width: 100%;
+    height: 230px;
+    margin-top: 60px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.follow{
+    width: 105%;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+div.containerfollow{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+div.img-user{
+    width: 60px;
+    height: 60px;
+    background-color: grey;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+div.info{
+    width: 240px;
+    height: 80px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+div.info>p{
+    font-size: .8em;
+    color: grey;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p.follow-button{
+    border: 1px solid grey;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: .9em;
+    cursor: pointer;
+}
+
+p.follow-button:hover{
+    border: 1px solid black;
+}
+
+
+/* stile struttura: DESTRA 4*/
+
+.sezDestraQuattro{
+    width: 90%;
+    min-height: 150px;
+    margin-top: 120px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+
+div.saved{
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 30px 0px;
+}
+
+.saved>h4{
+    cursor: pointer;
+}
+
+.section-saved{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+div.user-icon{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: green;
+    cursor: pointer;
+}
+
+div.user-icon-circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: blue;
+    cursor: pointer;
+}
+
+div.saved-user>h5{
+    padding-left: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.grey{
+    color: grey;
+    font-weight: lighter;
+    cursor:auto;
+}
+
+.saved-info{
+    display: flex;
+    margin-top: 15px;
+}
+
+.saved-info>p{
+    cursor: pointer;
+}
+
+.saved-date{
+    font-size: .8em;
+    color: grey;
+    font-weight: lighter;
+}
+
+.icon-star{
+    width: 12px;
+    height: 12px;
+    padding-left: 5px;
+    color: grey;
+}
+
+div.dot{
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: grey;
+    margin: 5px 10px;
+}
+
+.saved-time{
+    font-size: .8em;
+    color: grey;
+    font-weight: lighter;
+    position: relative;
+}
+
+
+/* stile sezione 5 */
+
+p.link-content{
+    color: green;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+/* nav-bottom */
+
+.nav-bottom{
+    margin-top: 40px;
+    width: 100%;
+    min-height: 100px;
+}
+
+.nav-bottom ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.nav-bottom ul li{
+    padding: 10px 15px 0 0;
+    font-size: 1.1em;
+    color: grey;
+    cursor: pointer;
+}
