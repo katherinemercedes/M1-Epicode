@@ -4,7 +4,7 @@ TOPICS: HTML5, CSS3, VSCODE
 
 Live preview links:
 
-Basic CSS skills for a recipe's site
+Basic CSS skills for a recipe's site <br>
 D2: https://htmlpreview.github.io/?https://github.com/katherinemercedes/M1-Epicode/blob/main/D2/html/D2.html
 
 Amazon fac-simile Homepage FIRST VERSION
