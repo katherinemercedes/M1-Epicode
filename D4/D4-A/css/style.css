@@ -399,7 +399,7 @@ figcaption{
 }
 
 #cardigans{
-    background-image: url(/img/img_21.jpg);
+    background-image: url(../img/img_21.jpg);
     background-size: cover;
     background-position: center center;
     width: 150px;
