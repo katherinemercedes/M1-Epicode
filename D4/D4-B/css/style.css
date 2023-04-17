@@ -113,7 +113,7 @@ h1{
 #github{
     width: 45px;
     height: 45px;
-    background-image: url(/img/github.png);
+    background-image: url(../img/github.png);
     background-size:cover;
     background-position: center center;
     border-radius: 50%;
@@ -123,7 +123,7 @@ h1{
 #linkedin{
     width: 45px;
     height: 45px;
-    background-image: url(/img/linkedin.png);
+    background-image: url(../img/linkedin.png);
     background-size: cover;
     background-position: center center;
     border-radius: 50%;
@@ -133,7 +133,7 @@ h1{
 #vimeo{
     width: 45px;
     height: 45px;
-    background-image: url(/img/vimeo.png);
+    background-image: url(../img/vimeo.png);
     background-size: cover;
     background-position: center center;
     border-radius: 50%;
@@ -143,7 +143,7 @@ h1{
 #mail{
     width: 45px;
     height: 45px;
-    background-image: url(/img/mail.png);
+    background-image: url(../img/mail.png);
     background-size: cover;
     background-position: center center;
     border-radius: 50%;
@@ -153,7 +153,7 @@ h1{
 #web{
     width: 45px;
     height: 45px;
-    background-image: url(/img/web.png);
+    background-image: url(../img/web.png);
     background-size: cover;
     background-position: center center;
     border-radius: 50%;
@@ -319,7 +319,7 @@ ul li{
 /* immagini studio */
 
 #bambina{
-    background-image: url(/img/bambina.png);
+    background-image: url(../img/bambina.png);
     width: 50px;
     height: 100px;
     background-size: cover;
@@ -328,7 +328,7 @@ ul li{
 }
 
 #liceo{
-    background-image: url(/img/liceo.png);
+    background-image: url(../img/liceo.png);
     width: 350px;
     height: 75px;
     background-size: cover;
@@ -337,7 +337,7 @@ ul li{
 }
 
 #aba{
-    background-image: url(/img/logoabaurb.png);
+    background-image: url(../img/logoabaurb.png);
     width: 180px;
     height: 75px;
     background-size: cover;
@@ -347,7 +347,7 @@ ul li{
 
 
 #epicode{
-    background-image: url(/img/epicode.png);
+    background-image: url(../img/epicode.png);
     width: 300px;
     height: 70px;
     background-size: cover;
@@ -356,7 +356,7 @@ ul li{
 }
 
 #computer{
-    background-image: url(/img/boy-on-computer.png);
+    background-image: url(../img/boy-on-computer.png);
     width: 100px;
     height: 100px;
     background-size: cover;
@@ -367,7 +367,7 @@ ul li{
 
 
 #brama{
-    background-image: url(/img/brama.png);
+    background-image: url(../img/brama.png);
     width: 100px;
     height: 100px;
     background-size: cover;
@@ -376,7 +376,7 @@ ul li{
 }
 
 #justeat{
-    background-image: url(/img/justeat.png);
+    background-image: url(../img/justeat.png);
     width: 100px;
     height: 100px;
     background-size: cover;
@@ -385,7 +385,7 @@ ul li{
 }
 
 #unibo{
-    background-image: url(/img/unibo.png);
+    background-image: url(../img/unibo.png);
     width: 100px;
     height: 100px;
     background-size: cover;
@@ -393,7 +393,7 @@ ul li{
 }
 
 #sferisterio{
-    background-image: url(/img/sferisterio.png);
+    background-image: url(../img/sferisterio.png);
     width: 200px;
     height: 100px;
     background-size: cover;
