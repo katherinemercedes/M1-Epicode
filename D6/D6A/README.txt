@@ -1,4 +1,4 @@
-#Image Card
+<h1>Image Card</h1>
 
 First Part of Exersice D6 from module 1 for the EPICODE Web Developer course.
 The goal is to build an image card very similar to Pinterest's style using an overlay and css transformations.
