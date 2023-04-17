@@ -7,10 +7,10 @@ Live preview links:
 Basic CSS skills for a recipe's site
 D2: https://htmlpreview.github.io/?https://github.com/katherinemercedes/M1-Epicode/blob/main/D2/html/D2.html
 
-Amazon fac-simile Homepage first version
+Amazon fac-simile Homepage FIRST VERSION
 D3: https://htmlpreview.github.io/?https://github.com/katherinemercedes/M1-Epicode/blob/main/D3/html/index.html
 
-Amazon fac-simile Homepage second version
+Amazon fac-simile Homepage SECOND VERSIONE
 D4-A: https://htmlpreview.github.io/?https://github.com/katherinemercedes/M1-Epicode/blob/main/D4/D4-A/html/index.html
 
 Style CSS for presentation page built in D1
@@ -25,7 +25,7 @@ D5-B: https://htmlpreview.github.io/?https://github.com/katherinemercedes/M1-Epi
 Basic Pinterest Image Card
 D6-A: https://htmlpreview.github.io/?https://github.com/katherinemercedes/M1-Epicode/blob/main/D6/D6A/html/index.html
 
-Amazon fac-simile Homepage THIRS version + CARD
+Amazon fac-simile Homepage THIRD VERSION + CARD
 D6-B: https://htmlpreview.github.io/?https://github.com/katherinemercedes/M1-Epicode/blob/main/D6/D6B/html/index.html
 
 First Flexbox Layout
